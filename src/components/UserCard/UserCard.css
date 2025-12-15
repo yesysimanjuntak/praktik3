@@ -1,0 +1,80 @@
+.user-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+  background-color: #1e1e1e; /* dark */
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 12px auto;
+  box-shadow: 0 0 12px rgba(0, 157, 255, 0.25); /* glow biru */
+  color: #ffffff;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4eaaff; /* border neon */
+}
+
+.user-details h3 {
+  margin: 4px 0;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.user-details p {
+  margin: 2px 0;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.user-role {
+  color: #4eaaff;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.user-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Tombol edit */
+.edit-btn {
+  background-color: #0077ff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #005fd4;
+}
+
+/* Tombol hapus */
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}

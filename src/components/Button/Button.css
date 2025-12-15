@@ -1,0 +1,29 @@
+/* src/components/Button/Button.css */
+.custom-button {
+  background-color: #0077ff;         /* Biru neon */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(0, 157, 255, 0.3); /* Glow */
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-button:hover {
+  background-color: #0060d4;
+  transform: translateY(-2px);
+  box-shadow: 0 0 16px rgba(0, 157, 255, 0.6);
+}
+
+.custom-button:active {
+  background-color: #004cb5;
+  transform: translateY(1px);
+}
+
+.custom-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4);
+}

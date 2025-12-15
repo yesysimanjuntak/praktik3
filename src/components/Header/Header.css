@@ -1,0 +1,59 @@
+/* src/components/Header/Header.css */
+
+.header {
+  background-color: #1e1e1e; /* Gelap */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-radius: 12px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 0 15px rgba(0, 157, 255, 0.35); /* Glow biru */
+  border: 1px solid rgba(0, 157, 255, 0.3);
+}
+
+.header-left h1 {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.header-left p {
+  font-size: 14px;
+  margin: 4px 0 0;
+  opacity: 0.8;
+  color: #cccccc;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.admin-info {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 157, 255, 0.15);
+  padding: 8px 16px;
+  border-radius: 12px;
+  gap: 10px;
+  border: 1px solid rgba(0, 157, 255, 0.25);
+}
+
+.admin-info p {
+  margin: 0;
+  font-weight: 500;
+  color: white;
+}
+
+.admin-info img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #3a3a3a;
+  padding: 4px;
+}
